@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZillowExercise", "ZillowExercise\ZillowExercise.csproj", "{F8C5B879-1ABD-4F3A-9374-31A34ACFB4FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZillowExercise.Tests", "ZillowExercise.Tests\ZillowExercise.Tests.csproj", "{2E4BB98A-41F6-4077-BE73-F81E94D6BBD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8C5B879-1ABD-4F3A-9374-31A34ACFB4FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C5B879-1ABD-4F3A-9374-31A34ACFB4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C5B879-1ABD-4F3A-9374-31A34ACFB4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C5B879-1ABD-4F3A-9374-31A34ACFB4FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E4BB98A-41F6-4077-BE73-F81E94D6BBD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4BB98A-41F6-4077-BE73-F81E94D6BBD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E4BB98A-41F6-4077-BE73-F81E94D6BBD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E4BB98A-41F6-4077-BE73-F81E94D6BBD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
