@@ -14,6 +14,12 @@ namespace ZillowExercise
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            config.Routes.MapHttpRoute(
+                name: "GetSearchResults",
+                routeTemplate: "api/{controller}/{id}/{address}/{citystatezip}"
+            );
+
         }
     }
 }

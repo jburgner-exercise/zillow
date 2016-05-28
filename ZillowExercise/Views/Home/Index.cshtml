@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Get Search Results";
+}
+
+<h2>Get Search Results</h2>
+<div>
+    <form id="frmAddress">
+        <label>Address:</label>
+        <input id="tbAddress" type="text" required />
+        <label>City:</label>
+        <input id="tbCity" type="text" required />
+        <label>State:</label>
+        <input id="tbState" type="text" required />
+        <label>Zip:</label>
+        <input id="tbZip" type="number" min="10000" max="99999" required />
+        <input id="btnGo" type="button" value="Go" />
+    </form>
+</div>
+
+<div id ="status"></div>
+
+<pre id="dataTarget"></pre>
+
+<script src="~/Scripts/Home/Index.js"></script>
